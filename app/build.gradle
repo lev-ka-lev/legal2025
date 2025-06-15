@@ -1,0 +1,13 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    compileSdk 34
+    defaultConfig {
+        applicationId "com.legal2025"
+        minSdk 26
+        targetSdk 34
+    }
+}
